@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1b1b32;
+  color: #fff;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 10px;
+  background-color: #f5f6f7;
+  color: #0a0a23;
+  width: 455px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 550px;
+  overflow-y: auto;
+}
+
+.container::-webkit-scrollbar {
+  width: 1px;
+}
+
+#search-form,
+.output {
+  display: flex;
+  justify-content: center;
+}
+
+#search-form {
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  align-self: center;
+  font-size: 18px;
+}
+
+#search-input {
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+  width: 200px;
+}
+
+#search-button {
+  background-color: #7f21ab;
+  border: none;
+  font-size: 12px;
+  width: 70px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.output {
+  flex-direction: column;
+  margin: 15px 0;
+  padding: 5px;
+  align-items: center;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 325px;
+  background-color: #f0f1f7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.name-and-id {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.size {
+  font-size: 0.85rem;
+}
+
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sprite {
+  width: 180px;
+}
+
+#types {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.type {
+  text-transform: uppercase;
+  width: 66px;
+  padding: 5px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1rem;
+  color: #f5f6f7;
+}
+
+td,
+th {
+  background-color: #7f21ab;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr {
+  border-bottom: 5px solid #f5f6f7;
+}
+
+td:nth-child(even),
+th:nth-child(even) {
+  border-left: 5px solid #f5f6f7;
+}
+
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #9e93f1;
+}
+
+.dark {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}
